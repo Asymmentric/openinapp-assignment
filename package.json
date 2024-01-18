@@ -1,0 +1,21 @@
+{
+  "name": "openinapp-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && cd build && node index.js",
+    "dev": "ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@types/node": "^20.11.2",
+    "fs": "^0.0.1-security",
+    "google-auth-library": "^9.4.2",
+    "googleapis": "^130.0.0",
+    "ts-node": "^10.9.2"
+  }
+}
